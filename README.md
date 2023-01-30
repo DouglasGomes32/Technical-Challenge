@@ -1,16 +1,14 @@
 # Iniciando o projeto
 
 Para instalar as bibliotecas necessárias
-
 ### pip install django djangorestframework validate_docbr
 
 Para fazer as migrações pendentes
-
 ### python manage.py migrate
 
 Criar usuario de login
-
 ### python manage.py createsuperuser --email admin@example.com --username admin
+
 
 O banco de dados utilizado é o sqlite, que já está configurado de forma padrão no Django
 
